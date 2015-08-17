@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test</title>
+  <style>
+.drop-zone {
+  background: red;
+  width: 200px;
+  height: 50px;
+}
+  </style>
+</head>
+<body>
+  <h1>Hello</h1>
+  <section id='app'></section>
+  <script>
+document.addEventListener('dragover', function(e) { e.preventDefault() });
+  </script>
+  <script src='bundle.js'></script>
+</body>
+</html>
